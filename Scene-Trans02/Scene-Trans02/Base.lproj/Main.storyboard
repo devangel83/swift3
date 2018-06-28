@@ -33,7 +33,7 @@
                     <navigationItem key="navigationItem" title="화면 전환" id="hCN-vB-gg0">
                         <barButtonItem key="rightBarButtonItem" systemItem="fastForward" id="roJ-yW-wGx">
                             <connections>
-                                <action selector="moveByNavy:" destination="BYZ-38-t0r" id="l3h-mf-gCW"/>
+                                <action selector="moveByNavy:" destination="BYZ-38-t0r" id="XrK-kn-h4j"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>

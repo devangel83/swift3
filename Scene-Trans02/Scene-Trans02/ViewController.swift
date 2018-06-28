@@ -19,15 +19,15 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
 
     @IBAction func moveByNavy(_ sender: Any) {
         guard let uvc = self.storyboard?.instantiateViewController(withIdentifier: "SecondVC") else {
+            
             return
+            
         }
         
         self.navigationController?.pushViewController(uvc, animated: true)
-        
     }
 }
 
