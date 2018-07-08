@@ -77,6 +77,13 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="email" destination="B6R-9a-fLW" id="mfQ-vq-yt0"/>
+                        <outlet property="interval" destination="gtb-KO-oHT" id="82v-md-Mf5"/>
+                        <outlet property="intervalText" destination="CQi-Lg-xio" id="tjo-6l-kZE"/>
+                        <outlet property="isUpdate" destination="R8x-41-61L" id="v9c-hz-jX5"/>
+                        <outlet property="isUpdateText" destination="cp6-rx-Thb" id="GMf-cF-RdZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
