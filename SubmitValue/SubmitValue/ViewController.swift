@@ -26,6 +26,19 @@ class ViewController: UIViewController {
     //갱신주기를 텍스트로 표시하는 레이블
     @IBOutlet weak var intervalText: UILabel!
     
+    //자동 갱신 여부가 바뀔 때마다 호출되는 메소드
+    @IBAction func onSwitch(_ sender: UISwitch) {
+        if(sender.isOn == true) {
+            self.isUpdateText.text = "갱신함"
+        } else {
+            self.isUpdateText.text = "갱신하지 않음"
+        }
+    }
     
+    //갱신주기가 바뀔 때마다 호출되는 메소드
+    @IBAction func onStepper(_ sender: UIStepper) {
+        let value = Int(sender.value)
+        self.intervalText.text = "\(value)분 마다"
+    }
 }
 
