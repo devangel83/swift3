@@ -14,5 +14,14 @@ class ResultViewController : UIViewController {
     //Interval 값을 받을 변수
     var paramInterVal : Double = 0
     
+    override func viewDidLoad() {
+        self.resultEmail.text = paramEmail
+        self.resultUpdate.text = (self.paramUpdate == true ? "자동갱신" : "자동갱신안함")
+        self.resultInterVal.text = "\(Int(paramInterVal))분 마다 갱신"
+    }
     
+    
+    @IBAction func onBack(_ sender: Any) {
+        self.presentingViewController?.dismiss(animated: true)
+    }
 }

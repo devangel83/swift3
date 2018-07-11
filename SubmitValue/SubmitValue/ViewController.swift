@@ -40,5 +40,23 @@ class ViewController: UIViewController {
         let value = Int(sender.value)
         self.intervalText.text = "\(value)분 마다"
     }
+    
+    @IBAction func onSubmit(_ sender: Any) {
+        //VC2의 인스턴스 생성
+        guard let rvc = self.storyboard?.instantiateViewController(withIdentifier: "RVC") as? ResultViewController else {
+            return
+        }
+        
+        //값을 전달
+        rvc.paramEmail = self.email.text! //이메일
+        rvc.paramUpdate = self.isUpdate.isOn //자동갱신 여부
+        rvc.paramInterVal = self.interval.value //갱신주기
+        
+        //화면이동
+        //self.present(rvc, animated: true)
+        self.navigationController?.pushViewController(rvc, animated: true)
+        
+    }
+    
 }
 
