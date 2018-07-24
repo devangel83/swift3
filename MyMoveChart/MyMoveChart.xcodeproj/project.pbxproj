@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F209EAC42106829D005A7710 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F209EAC32106829D005A7710 /* ListViewController.swift */; };
+		F28E481F2107D3D900BF2453 /* MovieVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28E481E2107D3D900BF2453 /* MovieVO.swift */; };
 		F2E59E572103E8E90038931D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E59E562103E8E90038931D /* AppDelegate.swift */; };
 		F2E59E592103E8E90038931D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E59E582103E8E90038931D /* ViewController.swift */; };
 		F2E59E5C2103E8EA0038931D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2E59E5A2103E8EA0038931D /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		F209EAC32106829D005A7710 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		F28E481E2107D3D900BF2453 /* MovieVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieVO.swift; sourceTree = "<group>"; };
 		F2E59E532103E8E90038931D /* MyMoveChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMoveChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2E59E562103E8E90038931D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2E59E582103E8E90038931D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				F2E59E562103E8E90038931D /* AppDelegate.swift */,
 				F2E59E582103E8E90038931D /* ViewController.swift */,
 				F2E59E5A2103E8EA0038931D /* Main.storyboard */,
+				F28E481E2107D3D900BF2453 /* MovieVO.swift */,
 				F209EAC32106829D005A7710 /* ListViewController.swift */,
 				F2E59E5D2103E8EA0038931D /* Assets.xcassets */,
 				F2E59E5F2103E8EA0038931D /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2E59E592103E8E90038931D /* ViewController.swift in Sources */,
+				F28E481F2107D3D900BF2453 /* MovieVO.swift in Sources */,
 				F2E59E572103E8E90038931D /* AppDelegate.swift in Sources */,
 				F209EAC42106829D005A7710 /* ListViewController.swift in Sources */,
 			);
