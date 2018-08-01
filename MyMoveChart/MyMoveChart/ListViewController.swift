@@ -38,7 +38,14 @@ class ListViewController : UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         //주어진 행에 맞는 데이터 소스를 읽어온다.
         let row = self.list[indexPath.row]
-        
+  
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ListCell") as! MovieCell
+  
+        cell.title?.text = row.title
+        cell.desc?.text = row.description
+        cell.opendate?.text = row.opendate
+        cell.rating?.text = "\(row.rating!)"
+/*
         //테이블 셀 객체를 식접 생성하는 대신 큐로부터 가져옴
         let cell = tableView.dequeueReusableCell(withIdentifier: "ListCell")!
         
@@ -53,7 +60,7 @@ class ListViewController : UITableViewController {
         desc?.text = row.description
         opendate?.text = row.opendate
         rating?.text = "\(row.rating!)"
-        
+*/
         return cell
     }
     
