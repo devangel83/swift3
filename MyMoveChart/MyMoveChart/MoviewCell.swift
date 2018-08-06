@@ -10,7 +10,7 @@ class MovieCell : UITableViewCell {
     
     @IBOutlet weak var rating: UILabel! //평점
     
-    
+    @IBOutlet weak var thumbnail: UIImageView! //섬네일 이미지
     
     
 }

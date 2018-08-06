@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		F209EAC42106829D005A7710 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F209EAC32106829D005A7710 /* ListViewController.swift */; };
+		F244EFC02118F7A600FD5F87 /* secret.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F244EFBD2118F7A600FD5F87 /* secret.jpg */; };
+		F244EFC12118F7A600FD5F87 /* rain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F244EFBE2118F7A600FD5F87 /* rain.jpg */; };
+		F244EFC22118F7A600FD5F87 /* darknight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F244EFBF2118F7A600FD5F87 /* darknight.jpg */; };
 		F28E481F2107D3D900BF2453 /* MovieVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28E481E2107D3D900BF2453 /* MovieVO.swift */; };
 		F292A8A321125E7A002F3814 /* MoviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F292A8A221125E7A002F3814 /* MoviewCell.swift */; };
 		F2E59E572103E8E90038931D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E59E562103E8E90038931D /* AppDelegate.swift */; };
@@ -19,6 +22,9 @@
 
 /* Begin PBXFileReference section */
 		F209EAC32106829D005A7710 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		F244EFBD2118F7A600FD5F87 /* secret.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = secret.jpg; sourceTree = "<group>"; };
+		F244EFBE2118F7A600FD5F87 /* rain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rain.jpg; sourceTree = "<group>"; };
+		F244EFBF2118F7A600FD5F87 /* darknight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = darknight.jpg; sourceTree = "<group>"; };
 		F28E481E2107D3D900BF2453 /* MovieVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieVO.swift; sourceTree = "<group>"; };
 		F292A8A221125E7A002F3814 /* MoviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviewCell.swift; sourceTree = "<group>"; };
 		F2E59E532103E8E90038931D /* MyMoveChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMoveChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,6 +47,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F244EFBC2118F66200FD5F87 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F244EFBF2118F7A600FD5F87 /* darknight.jpg */,
+				F244EFBE2118F7A600FD5F87 /* rain.jpg */,
+				F244EFBD2118F7A600FD5F87 /* secret.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		F2E59E4A2103E8E90038931D = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +76,7 @@
 		F2E59E552103E8E90038931D /* MyMoveChart */ = {
 			isa = PBXGroup;
 			children = (
+				F244EFBC2118F66200FD5F87 /* Resources */,
 				F2E59E562103E8E90038931D /* AppDelegate.swift */,
 				F2E59E582103E8E90038931D /* ViewController.swift */,
 				F2E59E5A2103E8EA0038931D /* Main.storyboard */,
@@ -131,9 +148,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F244EFC22118F7A600FD5F87 /* darknight.jpg in Resources */,
 				F2E59E612103E8EA0038931D /* LaunchScreen.storyboard in Resources */,
+				F244EFC12118F7A600FD5F87 /* rain.jpg in Resources */,
 				F2E59E5E2103E8EA0038931D /* Assets.xcassets in Resources */,
 				F2E59E5C2103E8EA0038931D /* Main.storyboard in Resources */,
+				F244EFC02118F7A600FD5F87 /* secret.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
